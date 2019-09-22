@@ -3,9 +3,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#00000000"
     android:gravity="fill_vertical"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
+    <!-- Gender Section -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,25 +17,29 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/female_button" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/male_button" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/non_binary_button" />
 
     </LinearLayout>
 
+    <!-- Programming Level Section -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,24 +49,149 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/beginner_button" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/intermediate_button" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/advanced_button" />
 
 
     </LinearLayout>
+
+
+    <!-- Objectives Section -->
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/objectives_question" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:text="@string/data_structures_button" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:text="@string/product_management_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="@string/behavioral_button" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="@string/system_design_button" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:text="@string/front_end_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="@string/data_science_button" />
+
+    </LinearLayout>
+
+    <!-- Programming Languages Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/language_question" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/java_button" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/python_button" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/javascript_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c_button" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c_sharp_button" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c_plus_plus_button" />
+
+    </LinearLayout>
+
 
 </LinearLayout>

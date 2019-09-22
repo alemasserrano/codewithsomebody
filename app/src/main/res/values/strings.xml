@@ -10,13 +10,33 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
 
+    <!-- Strings related to gender -->
     <string name="gender_question">What is your gender?</string>
     <string name="female_button">Female</string>
     <string name="male_button">Male</string>
     <string name="non_binary_button">Non-binary</string>
 
+    <!-- Strings related to programming level. -->
     <string name="programming_level_question">What is your programming level?</string>
     <string name="beginner_button">Beginner</string>
     <string name="intermediate_button">Intermediate</string>
     <string name="advanced_button">Advanced</string>
+
+    <!-- Strings related to Practice Topics. -->
+    <string name="objectives_question">What practice topics are you interested in?</string>
+    <string name="data_structures_button">Data Structures</string>
+    <string name="product_management_button">Product Management</string>
+    <string name="behavioral_button">Behavioral</string>
+    <string name="system_design_button">System Design</string>
+    <string name="front_end_button">Front-end</string>
+    <string name="data_science_button">Data Science</string>
+
+    <!-- Strings related to Programming Languages. -->
+    <string name="language_question">What programming languages are you familiar with?</string>
+    <string name="java_button">Java</string>
+    <string name="python_button">Python</string>
+    <string name="javascript_button">JavaScript</string>
+    <string name="c_button">C</string>
+    <string name="c_sharp_button">C#</string>
+    <string name="c_plus_plus_button">C++</string>
 </resources>
