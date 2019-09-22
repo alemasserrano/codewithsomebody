@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Code With Somebody</string>
+    <string name="app_name">I want to Code with somebody</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -11,19 +11,26 @@
     <string name="login_failed">"Login failed"</string>
 
     <!-- Strings related to gender -->
-    <string name="gender_question">What is your gender?</string>
+    <string name="gender_question">Gender:</string>
     <string name="female_button">Female</string>
     <string name="male_button">Male</string>
     <string name="non_binary_button">Non-binary</string>
 
+    <!-- Strings related to education level. -->
+    <string name="education_level_question">Education Level:</string>
+    <string name="undergraduate_button">Undergraduate</string>
+    <string name="graduate_button">Graduate</string>
+    <string name="other_button">Other</string>
+
     <!-- Strings related to programming level. -->
-    <string name="programming_level_question">What is your programming level?</string>
+    <string name="programming_level_question">Programming Level:</string>
     <string name="beginner_button">Beginner</string>
     <string name="intermediate_button">Intermediate</string>
     <string name="advanced_button">Advanced</string>
+    <string name="expert_button">Expert</string>
 
     <!-- Strings related to Practice Topics. -->
-    <string name="objectives_question">What practice topics are you interested in?</string>
+    <string name="objectives_question">Practice topics you\'re interested in:</string>
     <string name="data_structures_button">Data Structures</string>
     <string name="product_management_button">Product Management</string>
     <string name="behavioral_button">Behavioral</string>
@@ -32,11 +39,26 @@
     <string name="data_science_button">Data Science</string>
 
     <!-- Strings related to Programming Languages. -->
-    <string name="language_question">What programming languages are you familiar with?</string>
+    <string name="language_question">Programming languages you\'re interested in:</string>
     <string name="java_button">Java</string>
     <string name="python_button">Python</string>
     <string name="javascript_button">JavaScript</string>
     <string name="c_button">C</string>
+    <string name="php_button">PHP</string>
+    <string name="swift_button">Swift</string>
     <string name="c_sharp_button">C#</string>
     <string name="c_plus_plus_button">C++</string>
+
+    <!-- Strings related to Target companies. -->
+    <string name="target_company_question">Companies you\'re interested in:</string>
+    <string name="amazon_button">Amazon</string>
+    <string name="apple_button">Apple</string>
+    <string name="chevron_button">Chevron</string>
+    <string name="facebook_button">Facebook</string>
+    <string name="google_button">Google</string>
+    <string name="jpmorgan_button">JP Morgan Chase</string>
+    <string name="microsoft_button">Microsoft</string>
+    <string name="square_button">Square</string>
+    <string name="uber_button">Uber</string>
+
 </resources>
