@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainDisplayActivity"
+    tools:showIn="@layout/activity_main_display">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:elevation="10dp"
+        android:background="@color/white"
+        android:id="@+id/bottonNavBar"
+        android:paddingTop="5dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="bottom">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:text="Matching"
+                android:layout_weight="1"
+                android:button="@null"
+                android:padding="2dp"
+                android:checked="false"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/selector_matching"
+                android:textColor="@drawable/selector_nav_text"
+                android:id="@+id/matching"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:checked="false"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/selector_discover"
+                android:textColor="@drawable/selector_nav_text"
+                android:id="@+id/discover"
+                android:text="Discover"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:id="@+id/profile"
+                android:button="@null"
+                android:paddingTop="5dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:layout_weight="1"
+                android:checked="false"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/selector_profile"
+                android:textColor="@drawable/selector_nav_text"
+                android:text="Profile"/>
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dynamicContent"
+        android:orientation="vertical"
+        android:layout_marginBottom="56dp"
+        android:background="@color/white"
+        android:layout_gravity="bottom">
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

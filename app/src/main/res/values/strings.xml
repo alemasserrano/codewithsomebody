@@ -60,5 +60,6 @@
     <string name="microsoft_button">Microsoft</string>
     <string name="square_button">Square</string>
     <string name="uber_button">Uber</string>
+    <string name="title_activity_main_display">MainDisplayActivity</string>
 
 </resources>
