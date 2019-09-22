@@ -13,6 +13,7 @@ public class LoggedInUser {
         this.displayName = displayName;
     }
 
+    // need to connect the db here in order to get the user id and displayname as well as config for profile
     public String getUserId() {
         return userId;
     }
