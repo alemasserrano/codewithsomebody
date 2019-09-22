@@ -9,6 +9,8 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="next">next</string>
+    <string name="submit">submit</string>
 
     <!-- Strings related to gender -->
     <string name="gender_question">Gender:</string>
@@ -60,5 +62,25 @@
     <string name="microsoft_button">Microsoft</string>
     <string name="square_button">Square</string>
     <string name="uber_button">Uber</string>
+
+    <!-- Strings related to Calendar Days. -->
+    <string name="sunday">SUN</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+
+    <!-- Strings related to Calendar Times. -->
+    <string name="nine_am">09:00 AM</string>
+    <string name="eleven_am">11:00 AM</string>
+    <string name="one">01:00 PM</string>
+    <string name="three">03:00 PM</string>
+    <string name="five">05:00 PM</string>
+    <string name="seven">07:00 PM</string>
+    <string name="nine_pm">09:00 PM</string>
+    <string name="eleven_pm">11:00 PM</string>
+
 
 </resources>
